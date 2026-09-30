@@ -1,0 +1,40 @@
+{
+  "algorithm": "segmented_thompson_sampling",
+  "contexts": [
+    "cellular",
+    "telephone"
+  ],
+  "actions": [
+    "short_message",
+    "guided_explanation",
+    "benefits_summary"
+  ],
+  "training_kind": "semi_synthetic",
+  "seed": 42,
+  "simulation_version": "messages-v1",
+  "alpha": [
+    [
+      933.0,
+      15.0,
+      46.0
+    ],
+    [
+      11.0,
+      766.0,
+      26.0
+    ]
+  ],
+  "beta": [
+    [
+      9346.0,
+      481.0,
+      709.0
+    ],
+    [
+      490.0,
+      9622.0,
+      567.0
+    ]
+  ],
+  "version": "ea6c30c6a053b096"
+}

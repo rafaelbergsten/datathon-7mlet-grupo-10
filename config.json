@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "experiment_name": "datathon-mlet-messages",
+  "simulation_version": "messages-v1",
+  "steps": 20000,
+  "repetitions": 30,
+  "first_seed": 42,
+  "pilot_steps": 3000,
+  "epsilon": 0.1,
+  "prior_alpha": 1.0,
+  "prior_beta": 1.0,
+  "training_fraction": 0.6,
+  "calibration_fraction": 0.2,
+  "context_weights": [0.5, 0.5],
+  "assumed_message_multipliers": [[1.55, 0.6, 1.0], [0.6, 1.9, 1.0]],
+  "scenarios": ["contextual", "equal_arms", "observed_mix"],
+  "assumptions": "Message effects and balanced traffic are hypothetical, fixed before running experiments. Historical y calibrates reference rates only. All counterfactual rewards are simulated."
+}

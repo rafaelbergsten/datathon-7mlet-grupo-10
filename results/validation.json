@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-09-06T21:51:13.610845+00:00",
+  "pytest_passed": 14,
+  "ruff": "passed",
+  "notebook_code_cells_executed": 12,
+  "notebook_errors": 0,
+  "notebook_embedded_images": 4,
+  "golden_set_passed": 5,
+  "http_smoke_test": {
+    "health": 200,
+    "docs": 200,
+    "recommend": 200,
+    "feedback": 200,
+    "mlflow_health": 200
+  },
+  "mlflow_child_runs": 450,
+  "mlflow_parent_run_id": "80b0bc231ae84a2d95d13d06ec6a6c5f",
+  "scope": "Local prototype; rewards are semi-synthetic; no public deployment or video produced"
+}

@@ -1,0 +1,27 @@
+{
+  "source": "https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/henriqueyamahata/bank-marketing",
+  "upstream": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+  "upstream_doi": "10.24432/C5K306",
+  "upstream_license": "CC BY 4.0",
+  "source_file": "bank-additional-full.csv",
+  "kaggle_version": 1,
+  "kaggle_last_updated": "2018-06-06T15:19:35.95Z",
+  "kaggle_license_label": "Other (specified in description)",
+  "downloaded_at_utc": "2026-09-06T21:37:10.966305+00:00",
+  "source_csv_sha256": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8",
+  "processed_sha256": "cd89086a426bbdb47a7d69079b74607aad70db17d3fab00ef98864de6c720644",
+  "rows": 41188,
+  "columns": [
+    "contact",
+    "month",
+    "day_of_week",
+    "previous",
+    "poutcome",
+    "converted"
+  ],
+  "target": "converted: yes=1, no=0",
+  "row_order": "Original chronological order preserved",
+  "deduplication": "No entity ID: identical minimized rows may be distinct observations",
+  "raw_storage": "Archive read in memory; raw data not persisted by this pipeline"
+}

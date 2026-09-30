@@ -1,0 +1,111 @@
+[
+  {
+    "case": "A",
+    "contact": "cellular",
+    "eligible": true,
+    "consent": true,
+    "expected_action": "short_message",
+    "expected_reason": null,
+    "rationale": "Mensagem curta é a melhor no cenário simulado deste contexto.",
+    "actual_action": "short_message",
+    "actual_reason": null,
+    "passed": true,
+    "response": {
+      "status": "recommended",
+      "decision_id": "4934254c-ea3c-40d9-9743-ac15ce79d71a",
+      "action": "short_message",
+      "message": "Conheça a oferta de depósito a prazo e consulte as condições.",
+      "contact": "cellular",
+      "mode": "greedy",
+      "posterior_mean": 0.0907675843953692,
+      "model_version": "ea6c30c6a053b096",
+      "training_kind": "semi_synthetic"
+    }
+  },
+  {
+    "case": "B",
+    "contact": "telephone",
+    "eligible": true,
+    "consent": true,
+    "expected_action": "guided_explanation",
+    "expected_reason": null,
+    "rationale": "Explicação guiada é a melhor no cenário simulado deste contexto.",
+    "actual_action": "guided_explanation",
+    "actual_reason": null,
+    "passed": true,
+    "response": {
+      "status": "recommended",
+      "decision_id": "109a2c1d-f705-4b4f-8f33-a722b1b69894",
+      "action": "guided_explanation",
+      "message": "Veja como funciona o depósito a prazo, seus prazos e condições.",
+      "contact": "telephone",
+      "mode": "greedy",
+      "posterior_mean": 0.07373892953407778,
+      "model_version": "ea6c30c6a053b096",
+      "training_kind": "semi_synthetic"
+    }
+  },
+  {
+    "case": "C",
+    "contact": "cellular",
+    "eligible": false,
+    "consent": true,
+    "expected_action": null,
+    "expected_reason": "ineligible",
+    "rationale": "Cliente inelegível: nenhuma mensagem comercial é recomendada.",
+    "actual_action": null,
+    "actual_reason": "ineligible",
+    "passed": true,
+    "response": {
+      "status": "withheld",
+      "reason": "ineligible",
+      "action": null,
+      "message": null,
+      "decision_id": null,
+      "model_version": "ea6c30c6a053b096",
+      "training_kind": "semi_synthetic"
+    }
+  },
+  {
+    "case": "D",
+    "contact": "telephone",
+    "eligible": true,
+    "consent": false,
+    "expected_action": null,
+    "expected_reason": "no_consent",
+    "rationale": "Sem permissão de contato: nenhuma mensagem comercial é recomendada.",
+    "actual_action": null,
+    "actual_reason": "no_consent",
+    "passed": true,
+    "response": {
+      "status": "withheld",
+      "reason": "no_consent",
+      "action": null,
+      "message": null,
+      "decision_id": null,
+      "model_version": "ea6c30c6a053b096",
+      "training_kind": "semi_synthetic"
+    }
+  },
+  {
+    "case": "E",
+    "contact": "unknown",
+    "eligible": true,
+    "consent": true,
+    "expected_action": null,
+    "expected_reason": "unknown_context",
+    "rationale": "Contexto desconhecido: encaminhar para validação humana.",
+    "actual_action": null,
+    "actual_reason": "unknown_context",
+    "passed": true,
+    "response": {
+      "status": "withheld",
+      "reason": "unknown_context",
+      "action": null,
+      "message": null,
+      "decision_id": null,
+      "model_version": "ea6c30c6a053b096",
+      "training_kind": "semi_synthetic"
+    }
+  }
+]

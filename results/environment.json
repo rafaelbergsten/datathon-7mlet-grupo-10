@@ -1,0 +1,33 @@
+{
+  "reference_rates": [
+    0.058368869936034115,
+    0.039598811292719166
+  ],
+  "probabilities": [
+    [
+      0.09047174840085288,
+      0.035021321961620465,
+      0.058368869936034115
+    ],
+    [
+      0.023759286775631498,
+      0.07523774145616641,
+      0.039598811292719166
+    ]
+  ],
+  "observed_test_context_weights": [
+    0.8794610342316096,
+    0.12053896576839039
+  ],
+  "observed_pilot_context_weights": [
+    0.9280165088613741,
+    0.07198349113862589
+  ],
+  "split_rows": {
+    "train": 24712,
+    "validation": 8238,
+    "test": 8238
+  },
+  "calibration": "Beta(1,1) smoothing on training historical conversions; hypothetical action multipliers",
+  "test_labels_used_for_rewards": false
+}

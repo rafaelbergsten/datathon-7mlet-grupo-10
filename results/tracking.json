@@ -1,0 +1,2706 @@
+{
+  "experiment": "datathon-mlet-messages",
+  "parent_run_id": "5e26476248d946f09c60833e9e0515a0",
+  "child_runs": [
+    {
+      "run_id": "721aa93f0fc54db098429f14b890e4f0",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 42
+    },
+    {
+      "run_id": "7f9ed26f6d644911ad3f4ea2259c1c61",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 42
+    },
+    {
+      "run_id": "146af1d1ff44499e983bd0046f1403b5",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 42
+    },
+    {
+      "run_id": "4852c354112d4a049617cd33fa445439",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 42
+    },
+    {
+      "run_id": "e5e5a0a535a64137be799ea11a88e8bd",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 42
+    },
+    {
+      "run_id": "783881d698bd4b9783acddafa9e09b38",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 43
+    },
+    {
+      "run_id": "1eedd2a02b9c447398fe4dce73f8041b",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 43
+    },
+    {
+      "run_id": "b4dc477021c946508270cd6c342c04ef",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 43
+    },
+    {
+      "run_id": "930ca77c9d5b4d8f9a70947b241f28bd",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 43
+    },
+    {
+      "run_id": "cb1a80eb13a34d0e99d6611314bf631e",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 43
+    },
+    {
+      "run_id": "e1d490ce2d6b418eb1de30d76985517c",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 44
+    },
+    {
+      "run_id": "f65e9d4f4fd44bda97fd35b46d484ba4",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 44
+    },
+    {
+      "run_id": "a749cf2e5be4489db72f74e808728535",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 44
+    },
+    {
+      "run_id": "1050b5e7f40c42ce8c250709edf2d21a",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 44
+    },
+    {
+      "run_id": "bd1a76bcf5cb47a09eae3d0c4e2da5fa",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 44
+    },
+    {
+      "run_id": "b61a0e6e13d54bbaa5e46a3d767caa44",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 45
+    },
+    {
+      "run_id": "3bc6f692051b4b35a2d7635d930ce842",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 45
+    },
+    {
+      "run_id": "ebf829bd018642ce8b7a25c5610c014e",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 45
+    },
+    {
+      "run_id": "b8662281894c40ad8036308660a148df",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 45
+    },
+    {
+      "run_id": "8224119375f944afa6485073c8e7927a",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 45
+    },
+    {
+      "run_id": "76b55606f9a44292845c0b14b777a229",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 46
+    },
+    {
+      "run_id": "8859f8a1f0284341866a458e58d56a7e",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 46
+    },
+    {
+      "run_id": "f905d80d3c334954bc5ee5120dc43d2a",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 46
+    },
+    {
+      "run_id": "ef141a2e79bd43689c4279b2b0637af3",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 46
+    },
+    {
+      "run_id": "b4eaa487d02d4adaadffcde05d3121ff",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 46
+    },
+    {
+      "run_id": "bada62ac31504ca79001ad276a9062fe",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 47
+    },
+    {
+      "run_id": "336bb0668d1e42e0bcdffcad2c0526fa",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 47
+    },
+    {
+      "run_id": "345a64a3c2784ed4810d8333a759d5a3",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 47
+    },
+    {
+      "run_id": "dbf74a7c907a4fef8d4d9f2d842177ef",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 47
+    },
+    {
+      "run_id": "20a6fdf0531243f79a2f1a1e1abcb371",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 47
+    },
+    {
+      "run_id": "dec6134ff81d43159f5bb432572906c4",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 48
+    },
+    {
+      "run_id": "b015a29eca6e4a0e9f98c50c373940e7",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 48
+    },
+    {
+      "run_id": "636cbaf60a3f44e8a6d3ec51c1845708",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 48
+    },
+    {
+      "run_id": "f342cfc8a49e41619c69dbe8da03293e",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 48
+    },
+    {
+      "run_id": "66129d2dc478406ba1af6c39e24e2a33",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 48
+    },
+    {
+      "run_id": "f845b05a6f654a4ba062d20aa54ac8cd",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 49
+    },
+    {
+      "run_id": "01787cd5d21e47babe223069cced0922",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 49
+    },
+    {
+      "run_id": "486660f6c3f74ece834f6fa5a86575ee",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 49
+    },
+    {
+      "run_id": "02a67fb88cbf4da3aae5999d65c1fb09",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 49
+    },
+    {
+      "run_id": "e6256845191b4607a16454843a544de0",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 49
+    },
+    {
+      "run_id": "c0008d12171b4cd18e45f7171aeba480",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 50
+    },
+    {
+      "run_id": "1634430aceb449f8aad3d0a9fd8444b3",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 50
+    },
+    {
+      "run_id": "c865b0ad5450496f925e38d5acadf688",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 50
+    },
+    {
+      "run_id": "d4d3ba9eda6c41afb1b05b824e8ce7ed",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 50
+    },
+    {
+      "run_id": "9042e4c52cbf467f824b3ce737ff164b",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 50
+    },
+    {
+      "run_id": "6fa3de47f1ee445092f9df323fa74d5f",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 51
+    },
+    {
+      "run_id": "0f9e36b25ffe47cdbc4f5fd9b7ee2163",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 51
+    },
+    {
+      "run_id": "63401d85dc7b46caa72242106d913090",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 51
+    },
+    {
+      "run_id": "05bf1ad6a6044f09b71474c6725ce9fa",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 51
+    },
+    {
+      "run_id": "4373ad262f6b4412ab17b53317bc3a4f",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 51
+    },
+    {
+      "run_id": "09292c21db604fd19456e3486293ebdc",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 52
+    },
+    {
+      "run_id": "2d7c62d0c3af4cee8f35cc3fe15d2507",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 52
+    },
+    {
+      "run_id": "7ad1db9cea0940309a6d66cf610d6f50",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 52
+    },
+    {
+      "run_id": "76e6dc913b014dc0836868620c6cb1b2",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 52
+    },
+    {
+      "run_id": "51ad4a5c232444b39ad5e59ee1a5bad7",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 52
+    },
+    {
+      "run_id": "e8c7ab75ed024b7fac5176fa859a5b82",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 53
+    },
+    {
+      "run_id": "4a6f7d0d20d54e17aab706a5b0f120c2",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 53
+    },
+    {
+      "run_id": "61463806e44642e58796c8893a273644",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 53
+    },
+    {
+      "run_id": "ea6686405baf4b3ea6e967a5c34b1b48",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 53
+    },
+    {
+      "run_id": "3a6e87bfcc654214820eab6c27b9fe96",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 53
+    },
+    {
+      "run_id": "96ce27a2e3d94c4ebaba402ed4f119f8",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 54
+    },
+    {
+      "run_id": "3746339624f64dde86969e1745d95c6e",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 54
+    },
+    {
+      "run_id": "be3fee465bee496892bf5f37b59e7e8c",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 54
+    },
+    {
+      "run_id": "e80d81d7899044f3a8a6ac21c55874de",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 54
+    },
+    {
+      "run_id": "87f22da23fe14a77b21b5578073d6055",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 54
+    },
+    {
+      "run_id": "2e92f1accd4a4d3dbc906da43ff7375c",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 55
+    },
+    {
+      "run_id": "98e8940c2ac24aefad1becbe6ebe0dc2",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 55
+    },
+    {
+      "run_id": "dfe1a09337ff47ada5b666dff24c1bfe",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 55
+    },
+    {
+      "run_id": "ad14351c0d7248f58c6cd58650c77fcb",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 55
+    },
+    {
+      "run_id": "e72472a93dea4381ba4e7c94e98b8bbb",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 55
+    },
+    {
+      "run_id": "42e75a70f44e402297199b11efa49bd6",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 56
+    },
+    {
+      "run_id": "d12d8f5600374d289979a6dc04931709",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 56
+    },
+    {
+      "run_id": "0e0abee991da4b48a8011697b3a51d12",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 56
+    },
+    {
+      "run_id": "c960b8d42f1545a8b0aea8fa92fd891b",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 56
+    },
+    {
+      "run_id": "8927c43f889c427989bdbc85873b243f",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 56
+    },
+    {
+      "run_id": "8b1772178a0e4bdcaeef655f10fc8120",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 57
+    },
+    {
+      "run_id": "be3ad974e6ed467b81977e69a7d806f4",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 57
+    },
+    {
+      "run_id": "fd1e7d12d7b441ceb15c0bfb708cf394",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 57
+    },
+    {
+      "run_id": "2f8eb5aa48ac4b318d798ef1bc96bf50",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 57
+    },
+    {
+      "run_id": "998ecf628cb54b1383e3b74254b126d9",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 57
+    },
+    {
+      "run_id": "77be553a58f049b6ba0a71674f166975",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 58
+    },
+    {
+      "run_id": "30f85ee8720440519983a4bed94341aa",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 58
+    },
+    {
+      "run_id": "5aaec3091f9f40cd8ea640b4b57112a4",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 58
+    },
+    {
+      "run_id": "48476bb5221c4ddf8a20133146065d28",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 58
+    },
+    {
+      "run_id": "e08a0fd16a684338b5aa4f8935a61b0a",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 58
+    },
+    {
+      "run_id": "934bff5926fc4053a72a172c5479c091",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 59
+    },
+    {
+      "run_id": "3b094b335c234db0a1aa404a38e236c2",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 59
+    },
+    {
+      "run_id": "0ee01fbb18df4d13b968a92f6ba4750d",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 59
+    },
+    {
+      "run_id": "2a6204c9e6e946018feb71bf519101eb",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 59
+    },
+    {
+      "run_id": "f52b4c715b2e487db1052432519ec33d",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 59
+    },
+    {
+      "run_id": "4f08534197234fb5bf9dde09ee2e8308",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 60
+    },
+    {
+      "run_id": "f1bc95be0d6a4d6b9a3a8bc8bed7a7b3",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 60
+    },
+    {
+      "run_id": "16be07ff66b24d92ab71ac3e89a27697",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 60
+    },
+    {
+      "run_id": "28fe7b9b293e4aa4b51e30a2f5a1215b",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 60
+    },
+    {
+      "run_id": "d741aebeef6947db84fce30bc9b4e453",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 60
+    },
+    {
+      "run_id": "cd2be296c5f14807809c3f6033b59f4f",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 61
+    },
+    {
+      "run_id": "44902035840b444ba74b85c22de4740b",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 61
+    },
+    {
+      "run_id": "d076922640d3412a8b0641a6cba2be20",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 61
+    },
+    {
+      "run_id": "40cdaab0543e4252afdb300445aada89",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 61
+    },
+    {
+      "run_id": "5da292bfbd64416db14b68b8ea632f78",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 61
+    },
+    {
+      "run_id": "d8fc5e26591740d8b0fac2d1c5d52cbe",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 62
+    },
+    {
+      "run_id": "6a0a8bd03bdf4f70a20d9e4afd7ece1b",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 62
+    },
+    {
+      "run_id": "f0600693b36c44879505df4e7adcbcd9",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 62
+    },
+    {
+      "run_id": "ae6c033bf2a0498e9a382c8324f636e7",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 62
+    },
+    {
+      "run_id": "ed50718ca0a14bfbacbb62c112d9301b",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 62
+    },
+    {
+      "run_id": "459a6a3ecaf2468391d922c34d56e899",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 63
+    },
+    {
+      "run_id": "6843296a674d4f159ff9cb61d2e50dc6",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 63
+    },
+    {
+      "run_id": "ca9f39fcf5254bcbb8bd0d33da44ba42",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 63
+    },
+    {
+      "run_id": "fc2687e69d0242ffbb29dc3f6aeab452",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 63
+    },
+    {
+      "run_id": "89f013a042c14b4d8f19b89d38821b30",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 63
+    },
+    {
+      "run_id": "5dfe956d1ef3400bb6188ca2c6fceee1",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 64
+    },
+    {
+      "run_id": "42ff672f3dec41289445435fff5d48b2",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 64
+    },
+    {
+      "run_id": "60a229efc1844d5cad621372d9815959",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 64
+    },
+    {
+      "run_id": "06b5ac5f8e5c4a6d981de03efbd6af0c",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 64
+    },
+    {
+      "run_id": "943e83894a86437a88ee9c6646500932",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 64
+    },
+    {
+      "run_id": "462b994afcca4ccdb4cccedf57605416",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 65
+    },
+    {
+      "run_id": "1e8a4a81d9ee42a2b5c5ab1eef23464c",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 65
+    },
+    {
+      "run_id": "c1a28e220f1542889885417ca88b8466",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 65
+    },
+    {
+      "run_id": "665bba0017b544df8ff63eec916cfa4b",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 65
+    },
+    {
+      "run_id": "979e19912843483e84a1dd2ba4995fdc",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 65
+    },
+    {
+      "run_id": "48b91133cb4e43009d3b55b76953ab45",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 66
+    },
+    {
+      "run_id": "b9681629eda945a2809d9930a56aa468",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 66
+    },
+    {
+      "run_id": "d44c1fece41e4bff8c04285b81fbc97a",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 66
+    },
+    {
+      "run_id": "f25672fd9397433a9ffce75d7b2edc62",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 66
+    },
+    {
+      "run_id": "576bac8cc50847cab1ec994cc6857f25",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 66
+    },
+    {
+      "run_id": "61a31dc1583c49089f3eccd3b700d451",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 67
+    },
+    {
+      "run_id": "31fff7b48eef4209aa61696b16e09a36",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 67
+    },
+    {
+      "run_id": "c9a204afec484792b335c9c3219d92fc",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 67
+    },
+    {
+      "run_id": "ab1c0f0d4d2b456eb671ba8c131a76fa",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 67
+    },
+    {
+      "run_id": "bc8ebcce9a7b41a9b523adabecf79b4e",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 67
+    },
+    {
+      "run_id": "ced4300be5d645e7a15af199e1230d82",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 68
+    },
+    {
+      "run_id": "b1e49732c88f498eb9e970106fc339be",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 68
+    },
+    {
+      "run_id": "87381907498e485ea2a176b5a4287007",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 68
+    },
+    {
+      "run_id": "5e3107a5ac0f4d4c87555fe08071e72c",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 68
+    },
+    {
+      "run_id": "d9398ced1334425fa8cd2d77d3e874c6",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 68
+    },
+    {
+      "run_id": "67e7025b78904dfe994465d1878e5c19",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 69
+    },
+    {
+      "run_id": "17d405ed11ac4abeb4e93cb714a1f66c",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 69
+    },
+    {
+      "run_id": "0ee3773434ae4e3fa09da62fbcff7e35",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 69
+    },
+    {
+      "run_id": "a6503c52ae8c4e00be080d6c25538042",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 69
+    },
+    {
+      "run_id": "a6efc6603ec7491b9bff5ac86e131304",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 69
+    },
+    {
+      "run_id": "cc69ec27a6db43c8b60f1dabac111dd4",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 70
+    },
+    {
+      "run_id": "b172bc2c1a50491fb3bcca5bb7b567a9",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 70
+    },
+    {
+      "run_id": "f7f34b006f914aa488d5a7bfe03df1b0",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 70
+    },
+    {
+      "run_id": "5bcd6aae092d437684e37ac663d73b2e",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 70
+    },
+    {
+      "run_id": "4b20967bfb86486da18a0042030a93d1",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 70
+    },
+    {
+      "run_id": "baa9ee3acd974a8c8ff1e080b986479d",
+      "scenario": "contextual",
+      "policy": "fixed",
+      "seed": 71
+    },
+    {
+      "run_id": "1fae46ae06b34595ba27f734edfea5c7",
+      "scenario": "contextual",
+      "policy": "segmented",
+      "seed": 71
+    },
+    {
+      "run_id": "e0068375084c4041ab53091af973ecc0",
+      "scenario": "contextual",
+      "policy": "oracle",
+      "seed": 71
+    },
+    {
+      "run_id": "bedc2ca5c7554dcbb011deb7157157d4",
+      "scenario": "contextual",
+      "policy": "thompson",
+      "seed": 71
+    },
+    {
+      "run_id": "6977aecd7054463698efe5867cc4d207",
+      "scenario": "contextual",
+      "policy": "epsilon_greedy",
+      "seed": 71
+    },
+    {
+      "run_id": "69a04fed864043a3999a8c5241ebceb6",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 42
+    },
+    {
+      "run_id": "cbda5af160b24aa58aa69a676fa4038a",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 42
+    },
+    {
+      "run_id": "8fa8872757ca4bc3adfb8dee80bf1488",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 42
+    },
+    {
+      "run_id": "2e762968bbb846c6a2fd506733d33852",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 42
+    },
+    {
+      "run_id": "cadb6b3578a7400195f1f2e371e65ea7",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 42
+    },
+    {
+      "run_id": "3af38175cbe447f09db510b99907948d",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 43
+    },
+    {
+      "run_id": "45d91cc70c404d95874dfe997c84352f",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 43
+    },
+    {
+      "run_id": "337bf7b7477f4c80b8d82ff5567566a2",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 43
+    },
+    {
+      "run_id": "9e434c2a86fa4cffb6743e1dbad33a1b",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 43
+    },
+    {
+      "run_id": "1e94ddf7b5e74eb1ad1dc8c1254121fe",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 43
+    },
+    {
+      "run_id": "dee4e2d8057a44a18de2bb394b8d1177",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 44
+    },
+    {
+      "run_id": "5cbe9728c5b54bd5a154164584cbf4a2",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 44
+    },
+    {
+      "run_id": "c83baa48a52c453d93f9d06ba5128ded",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 44
+    },
+    {
+      "run_id": "3aa55182706c4ad0b9f9d571403b0f10",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 44
+    },
+    {
+      "run_id": "6907044b2c1a42f6a456240afbcc7063",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 44
+    },
+    {
+      "run_id": "88662e12bcea4df5a62b6355c90be680",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 45
+    },
+    {
+      "run_id": "77d54da21f25455184a5df231edf133e",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 45
+    },
+    {
+      "run_id": "1e5e187a82da4b73b248daa4ed8bb573",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 45
+    },
+    {
+      "run_id": "0760d5ad81104d7394925f68f7ce1f9a",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 45
+    },
+    {
+      "run_id": "ff9d128595c64ceab5cc8c42a68e3d0b",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 45
+    },
+    {
+      "run_id": "83b485fa15aa41139ac1e3cdff480fc2",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 46
+    },
+    {
+      "run_id": "c7c59822901e441bad683057ba967c9e",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 46
+    },
+    {
+      "run_id": "de7fa27493f44bb89ce2c779534b19c0",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 46
+    },
+    {
+      "run_id": "4cac50e17111454b8d6157297fc507a5",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 46
+    },
+    {
+      "run_id": "2c0ae92aa221453a9804a8ba47173ad1",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 46
+    },
+    {
+      "run_id": "592cb134a3694a098f436ec767fbd26b",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 47
+    },
+    {
+      "run_id": "d5f843a9cb0649a5b1fe17630093db95",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 47
+    },
+    {
+      "run_id": "ce0bec339edb4e6ab7a811a5737f0d7a",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 47
+    },
+    {
+      "run_id": "f674fda3e37342d4af1953af16e06c4f",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 47
+    },
+    {
+      "run_id": "46308ad44e2f44e69625960a96c42463",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 47
+    },
+    {
+      "run_id": "3512982596c342f1b7497051712c7bf3",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 48
+    },
+    {
+      "run_id": "e150ae698a4a4d96a00235fa090601a8",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 48
+    },
+    {
+      "run_id": "3b57f7769d064867bad4dcd74d7b867e",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 48
+    },
+    {
+      "run_id": "c25288be8c7d4af785d72537d4fdcc59",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 48
+    },
+    {
+      "run_id": "e9a9bbd0d4da4064963004127cf5cbe9",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 48
+    },
+    {
+      "run_id": "58b7505c291f4b6a902a2e2d3fa91938",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 49
+    },
+    {
+      "run_id": "34853ed09bb54cd980bc651ed5e3e26d",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 49
+    },
+    {
+      "run_id": "78843d8b2d774025ad7209d9df96883e",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 49
+    },
+    {
+      "run_id": "c8724e082749483eb9cd5ca1bb9386dd",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 49
+    },
+    {
+      "run_id": "65b248259a4a40f9bb8780fc99acf522",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 49
+    },
+    {
+      "run_id": "7f576583daa84abdad65be3fe38841fe",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 50
+    },
+    {
+      "run_id": "914d8db762cc477aa3695a33aaa0aa4a",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 50
+    },
+    {
+      "run_id": "285d59939364443ebe680e3a8c9e3d96",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 50
+    },
+    {
+      "run_id": "3043559568464a719178e086b85f785c",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 50
+    },
+    {
+      "run_id": "957224a26d13473a9f8fb4ca9da9167d",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 50
+    },
+    {
+      "run_id": "81db58282297486394cc1ea10d5ba3eb",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 51
+    },
+    {
+      "run_id": "3753864a19694e0f810c90142c9593e3",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 51
+    },
+    {
+      "run_id": "5a48e60b96b14d43ac6f031df59e22c0",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 51
+    },
+    {
+      "run_id": "dd80174981554c8a92bf225e325ae689",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 51
+    },
+    {
+      "run_id": "8d068c0f494e41418c4d39e76a8deefb",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 51
+    },
+    {
+      "run_id": "4e9321d8428c4bd08ffb64f04b945f1a",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 52
+    },
+    {
+      "run_id": "32b49dcbd43b47d989858fc26d0f49fe",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 52
+    },
+    {
+      "run_id": "af263341662c444c8974f4c293e4ee7d",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 52
+    },
+    {
+      "run_id": "e1a2c3fda0654852b1053df7c9d43d6b",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 52
+    },
+    {
+      "run_id": "1cb1e9cb5c2b42dda59bd209492cd7e7",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 52
+    },
+    {
+      "run_id": "a1ec87e78e194e59a0aa36583824fbb6",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 53
+    },
+    {
+      "run_id": "bd132924c5924af393c0675c1f9f88d2",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 53
+    },
+    {
+      "run_id": "cb36cbcd314c462b8c375eca25e5eabb",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 53
+    },
+    {
+      "run_id": "8fd27fd60b624a3e84fc07366c5de959",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 53
+    },
+    {
+      "run_id": "b03f68b4707e487693f84930bdc0d09b",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 53
+    },
+    {
+      "run_id": "2f3c589a134e4f3b8934310b8379440c",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 54
+    },
+    {
+      "run_id": "642651549e534bffb156cb45ef6b90b3",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 54
+    },
+    {
+      "run_id": "8f6906b09c694a1c8fe3c4c6f74c5dea",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 54
+    },
+    {
+      "run_id": "dede2bbbc5d04c5d93c406305aaf6114",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 54
+    },
+    {
+      "run_id": "4a305b0f37b34841ac1d2c91d067764e",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 54
+    },
+    {
+      "run_id": "20c7a6f3d5fa4734b071df6e289f57e4",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 55
+    },
+    {
+      "run_id": "b7b96a0f9c2b4aabbe80961d5d3bd04e",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 55
+    },
+    {
+      "run_id": "066fe78182004057bde16838cc4e0788",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 55
+    },
+    {
+      "run_id": "84c6837e9aa64ca78376c1fc32365e15",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 55
+    },
+    {
+      "run_id": "fa3b5ff626504a779f065f76ef3a721a",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 55
+    },
+    {
+      "run_id": "58b0692349ab472e9d40f078fc71c615",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 56
+    },
+    {
+      "run_id": "52b94265851c4b67ac2c2248e189e91a",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 56
+    },
+    {
+      "run_id": "2da98d84a2324f5d9680734d0b6efd82",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 56
+    },
+    {
+      "run_id": "922b5355f3ff409eb7fa725bec2bfccd",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 56
+    },
+    {
+      "run_id": "5f6eb16edd37416cacd13b0d0d873d05",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 56
+    },
+    {
+      "run_id": "4b6e6cf7a1f4486ebdbb9c836f5af416",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 57
+    },
+    {
+      "run_id": "b3bc95a0bbb24852bc6e2bc3b25d2a71",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 57
+    },
+    {
+      "run_id": "a2bf1fcde1794d7a9d6e90feca44d070",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 57
+    },
+    {
+      "run_id": "c4ae712907cc4bea82563795c47b616d",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 57
+    },
+    {
+      "run_id": "0f9a3c21f1844f16b9d5665451d678bf",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 57
+    },
+    {
+      "run_id": "5ae64bb729934109a886a61f18d381f4",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 58
+    },
+    {
+      "run_id": "e780899e4d894ac18008059cbae65a77",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 58
+    },
+    {
+      "run_id": "1420092ea83d4d1396400befd8ddad9b",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 58
+    },
+    {
+      "run_id": "9c8d5c1df32245e0baf467a3f744f576",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 58
+    },
+    {
+      "run_id": "df892da892f54f39b46bfd9d9b9e43c8",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 58
+    },
+    {
+      "run_id": "cd4a86ccf21341df83c6b6f715cd013d",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 59
+    },
+    {
+      "run_id": "d3bcd2d4fe27427a85afecf13c90d7f9",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 59
+    },
+    {
+      "run_id": "ede89b0321be493bac3a8ebbce310c25",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 59
+    },
+    {
+      "run_id": "5d2ec80fe60941ca800ce938a17e6c58",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 59
+    },
+    {
+      "run_id": "1015288f8e7a44a488b7aa748c3ace36",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 59
+    },
+    {
+      "run_id": "6c7e1d7798ca4402a373f12577ddce5f",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 60
+    },
+    {
+      "run_id": "c1f57a01f4e44f28bbf574404b3ea892",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 60
+    },
+    {
+      "run_id": "f4fd493bab0c42dbab8b9a2350a7ef0c",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 60
+    },
+    {
+      "run_id": "52a9731b45f742d58c4fb34f467c62c3",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 60
+    },
+    {
+      "run_id": "a4af83722f874242bd0f46e3648f8803",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 60
+    },
+    {
+      "run_id": "3e4fd581862e4b61bfd35e2fc5d07ffc",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 61
+    },
+    {
+      "run_id": "9c6a952de4754578a7873ba20801e908",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 61
+    },
+    {
+      "run_id": "6ae9a2c752d54810b445e4755f393ddc",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 61
+    },
+    {
+      "run_id": "a96945666fca47a8986304c6774bf580",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 61
+    },
+    {
+      "run_id": "92da396792f84ea18e4e13cafa3f152d",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 61
+    },
+    {
+      "run_id": "d8fb61ab0f7241fca38abbf229f1c12b",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 62
+    },
+    {
+      "run_id": "e5bf2ddb820c488a9bbf4515fa20b232",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 62
+    },
+    {
+      "run_id": "d5704dfb17ac4ea796c904a671d79e1d",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 62
+    },
+    {
+      "run_id": "aa8d2eaa7d914607a792bb0bd2d0b5f1",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 62
+    },
+    {
+      "run_id": "d4cb0c0f1017446e878323c8f2291ead",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 62
+    },
+    {
+      "run_id": "4069def8d7e5419d91310e1c85f34ad6",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 63
+    },
+    {
+      "run_id": "b7724b1a3b624e2b9e6f019827bf6818",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 63
+    },
+    {
+      "run_id": "8f2df555280b4f1c8b62baa5142630bd",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 63
+    },
+    {
+      "run_id": "245b2e7226d246fd85afc562a21b64f7",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 63
+    },
+    {
+      "run_id": "ba5c291a913c4a2e96c059ad746e4804",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 63
+    },
+    {
+      "run_id": "007ab71b33bb495594f5de5cdd5c882e",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 64
+    },
+    {
+      "run_id": "c1fafc338f5846249e5dc432d11c969c",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 64
+    },
+    {
+      "run_id": "3a817aa6ce7e43b0a0c321626d4b938d",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 64
+    },
+    {
+      "run_id": "c3281a1fdefb4ec5b68f160df424f034",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 64
+    },
+    {
+      "run_id": "9010ff9098fd484da050a8dd55aa1858",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 64
+    },
+    {
+      "run_id": "94eec0ee4ee84b95a459f752ad709a20",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 65
+    },
+    {
+      "run_id": "026462a312744c6e9ed3109e0a1b4fb6",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 65
+    },
+    {
+      "run_id": "96e1042ffad04d6c9d310fe5f45d825d",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 65
+    },
+    {
+      "run_id": "c25b635579fb48668229579fbcbb446d",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 65
+    },
+    {
+      "run_id": "6ce57e1371f2452ebb0121f49ca394a0",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 65
+    },
+    {
+      "run_id": "6628cc50ad054adea0a8176bb298deb0",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 66
+    },
+    {
+      "run_id": "04bafb0bd43143b1b9c31a1c65746867",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 66
+    },
+    {
+      "run_id": "5db6f61df95f4730966d226dee443111",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 66
+    },
+    {
+      "run_id": "df6f833dd4c147baab1296043382c004",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 66
+    },
+    {
+      "run_id": "ad513c5c29f8487faab7bd6cdc15b637",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 66
+    },
+    {
+      "run_id": "b72ef7eb7fbb4bfdab024493964cd036",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 67
+    },
+    {
+      "run_id": "0642aa02bcee4506abffeddfc70d938a",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 67
+    },
+    {
+      "run_id": "3192148bd73240cf93a6c993e568de70",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 67
+    },
+    {
+      "run_id": "cfde894f2aa8475e9438928686b2db90",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 67
+    },
+    {
+      "run_id": "a635556b7ff941b795241e369ec68fbf",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 67
+    },
+    {
+      "run_id": "724129dcbf2d4a8eae2f3fcef9728fb1",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 68
+    },
+    {
+      "run_id": "ee8640c2c94041eeb5b374ea0fe32cdb",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 68
+    },
+    {
+      "run_id": "014517fa1ed44df1a5e997d2ea0d153e",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 68
+    },
+    {
+      "run_id": "f99bd4a2132543849289ad79d8fa0d91",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 68
+    },
+    {
+      "run_id": "d8a52422d1f3443cad82ec99e7d77bfa",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 68
+    },
+    {
+      "run_id": "2dac730778e54372908dd828811bfc9b",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 69
+    },
+    {
+      "run_id": "099f22ba0d9547f2ba18c61c99e2f197",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 69
+    },
+    {
+      "run_id": "8161810e00624154a635a26004b5d9ca",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 69
+    },
+    {
+      "run_id": "dd8cc35b40ab459db1e9eadf919b0345",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 69
+    },
+    {
+      "run_id": "5dade32a9b264201bf79cbd15e401c75",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 69
+    },
+    {
+      "run_id": "5a4a88f092884faebfaf7a6c0a3131f2",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 70
+    },
+    {
+      "run_id": "75b0bead8bd343e5ac5b82db303ceb54",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 70
+    },
+    {
+      "run_id": "bd10fa17f6d341be8eda6d831ad908ef",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 70
+    },
+    {
+      "run_id": "f26fd257be024b43a58676b358cde6d8",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 70
+    },
+    {
+      "run_id": "4416cfce2c8d42829d5108c9a1956abe",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 70
+    },
+    {
+      "run_id": "5c39d06732f6463b93caf6665c1d1795",
+      "scenario": "equal_arms",
+      "policy": "fixed",
+      "seed": 71
+    },
+    {
+      "run_id": "bac6183bad8c49c5b112231176cc4e1e",
+      "scenario": "equal_arms",
+      "policy": "segmented",
+      "seed": 71
+    },
+    {
+      "run_id": "5eab42b415d043378eab5fbbdf474e49",
+      "scenario": "equal_arms",
+      "policy": "oracle",
+      "seed": 71
+    },
+    {
+      "run_id": "9d8cf7e76d6a4100b8114835babd901f",
+      "scenario": "equal_arms",
+      "policy": "thompson",
+      "seed": 71
+    },
+    {
+      "run_id": "cf6f15f4b6ba4e75b5ab03550e48f289",
+      "scenario": "equal_arms",
+      "policy": "epsilon_greedy",
+      "seed": 71
+    },
+    {
+      "run_id": "1f43eb85e97141879b71e20679437671",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 42
+    },
+    {
+      "run_id": "95f642e4fbec477abaf972e8256d9d13",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 42
+    },
+    {
+      "run_id": "d771c9e8d8f8429390066a3e56075e3b",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 42
+    },
+    {
+      "run_id": "702546eb389c4ec2a30f8129a11997e3",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 42
+    },
+    {
+      "run_id": "24a0e95647494cd6bbd3f9266c338d17",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 42
+    },
+    {
+      "run_id": "25d071f3de894b82b1e5b09a20aa6988",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 43
+    },
+    {
+      "run_id": "f4d0403546624e27ab4a14844ac529e0",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 43
+    },
+    {
+      "run_id": "86780eb269c944f393388ddbf1f90f37",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 43
+    },
+    {
+      "run_id": "faeb3d5b4b0d464285098364fe574408",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 43
+    },
+    {
+      "run_id": "1b6520d547ce47138a055638292ed124",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 43
+    },
+    {
+      "run_id": "6a069163393c4a2fbb41598921bbfe89",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 44
+    },
+    {
+      "run_id": "22caf5636f1e48a2a3c6fdbdbcab100c",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 44
+    },
+    {
+      "run_id": "c79a0c4e90c441f5a3049cf9ea554faa",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 44
+    },
+    {
+      "run_id": "9efcdee191254640a990c67229afbbc8",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 44
+    },
+    {
+      "run_id": "b3935a82eb1a43e88628d95e82379f47",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 44
+    },
+    {
+      "run_id": "3cfb5235fc00470fb70a0d736723e247",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 45
+    },
+    {
+      "run_id": "b4e411d5a8f643a2a6b79941a562c37f",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 45
+    },
+    {
+      "run_id": "690ebd44c87147248849c7c8670dbe56",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 45
+    },
+    {
+      "run_id": "13656ff8383545da9b67f964732cd683",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 45
+    },
+    {
+      "run_id": "269c3bfd1893457aa7b34d8cc576fd6a",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 45
+    },
+    {
+      "run_id": "65b6827048f34c4bac1802742cd99d1b",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 46
+    },
+    {
+      "run_id": "8eba44c8c51d4b17a75258468c7506e3",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 46
+    },
+    {
+      "run_id": "1072adf12f8340d29e0a62250d5ea208",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 46
+    },
+    {
+      "run_id": "7a6f95d2c2314ebc841027a96fca1cc0",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 46
+    },
+    {
+      "run_id": "96fa38cd02114c258feca2da4bd5b8c6",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 46
+    },
+    {
+      "run_id": "44e6759756a448329157e6a556c2747c",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 47
+    },
+    {
+      "run_id": "8310c72e6b7f4ee5acf31a05cb712dc9",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 47
+    },
+    {
+      "run_id": "a4390d4c172a41cba78f2e4de8001587",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 47
+    },
+    {
+      "run_id": "8e0b343e33ab4d1c89103da04a4b796f",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 47
+    },
+    {
+      "run_id": "0e2840d244984ab7aebe83f073d3052c",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 47
+    },
+    {
+      "run_id": "cf4fabfe2c65486ab1ed2b7449247b60",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 48
+    },
+    {
+      "run_id": "65ee249aa2e940029aad5665f40eb1b5",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 48
+    },
+    {
+      "run_id": "63ad3609cc3e49759ad99ca1a6b5314d",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 48
+    },
+    {
+      "run_id": "bec28f80102d463092bddccd91b52277",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 48
+    },
+    {
+      "run_id": "973cdbd7df5c4af99c8a3d3f9a98997d",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 48
+    },
+    {
+      "run_id": "74e99ce94b9d4dae9acc9f44616fe5dc",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 49
+    },
+    {
+      "run_id": "cabf49f1b0044278b6b794673c9a50a9",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 49
+    },
+    {
+      "run_id": "fc9610670ac9432d9a6d801bf59dd6a5",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 49
+    },
+    {
+      "run_id": "0fe7a0042e584f30a180e4a5bdf006cd",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 49
+    },
+    {
+      "run_id": "07051b1be7314fbf8ad2420eca3f6150",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 49
+    },
+    {
+      "run_id": "55f6caacb7b548339a67c203ac039622",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 50
+    },
+    {
+      "run_id": "a4a62da971754e23b82e57142f6bda9a",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 50
+    },
+    {
+      "run_id": "e904f9b6886b4177b9cb332b8766a7f4",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 50
+    },
+    {
+      "run_id": "e9f0c714650948b18529474f592e1485",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 50
+    },
+    {
+      "run_id": "d3f852bd229942cbaa3eafdd6c619b39",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 50
+    },
+    {
+      "run_id": "8bc1ab90e0aa46138a0d9edb0503dfec",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 51
+    },
+    {
+      "run_id": "ae83f8d22b02401aabcd038a349de715",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 51
+    },
+    {
+      "run_id": "2826bb462f7b4874ae5cac9c2c23d264",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 51
+    },
+    {
+      "run_id": "44f775bc54bf49cab8e479e1ac38dde8",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 51
+    },
+    {
+      "run_id": "bc2e0148644445ed80fba5be27cdf64e",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 51
+    },
+    {
+      "run_id": "dadab1bd49f04a14898a443d4e421204",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 52
+    },
+    {
+      "run_id": "8fe0059f8f804f7a978ed1c17a519e72",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 52
+    },
+    {
+      "run_id": "2d32fafe73724dfc8f857e396aee24dc",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 52
+    },
+    {
+      "run_id": "ec27336dab9d460094c1cc0bea92f33e",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 52
+    },
+    {
+      "run_id": "d930a0e96f5e41e1be46b0b04c7602b5",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 52
+    },
+    {
+      "run_id": "5735c056f1d349769d9d3a6c28ae98d7",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 53
+    },
+    {
+      "run_id": "aa8d1f8590b3431b8f137cb4c9ff2844",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 53
+    },
+    {
+      "run_id": "8e7f62a0508f4b1cb1306bd346b7fcef",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 53
+    },
+    {
+      "run_id": "1b50175b9fe14c608ea45425b05efe85",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 53
+    },
+    {
+      "run_id": "0b8c916260bf4385acd5dce62b9b7e34",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 53
+    },
+    {
+      "run_id": "b7ac35bd8bb84b749930cf926b637a77",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 54
+    },
+    {
+      "run_id": "20f5438e08bb4d2a80bbe7bd052b7c8d",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 54
+    },
+    {
+      "run_id": "6bbd4bcf46d347a882646168ce7dbf15",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 54
+    },
+    {
+      "run_id": "7ab6dabe415b4b2c9c980cdeb91e68f4",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 54
+    },
+    {
+      "run_id": "950504b6f68349de85b99eef9c6862a9",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 54
+    },
+    {
+      "run_id": "168e6958c480413181e930b8d9efdfd3",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 55
+    },
+    {
+      "run_id": "df37c9685bcc489b9e9bc5f4dc6afd6e",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 55
+    },
+    {
+      "run_id": "2549e019679d4d69b549e4abbb9f0cf3",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 55
+    },
+    {
+      "run_id": "9a8b4bc34496440b9a8b64d43af157a0",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 55
+    },
+    {
+      "run_id": "2684b355d9aa4565b0408830b245168d",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 55
+    },
+    {
+      "run_id": "44c387cea3d6478bb198f13a62a82212",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 56
+    },
+    {
+      "run_id": "0c84dfc21c5146a6950316186bc06aca",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 56
+    },
+    {
+      "run_id": "608e27c756df486da9e93e71091e626c",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 56
+    },
+    {
+      "run_id": "d86d325a46d04f98a3ea04d3f0726387",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 56
+    },
+    {
+      "run_id": "7e89c76e29b240eeac2da4eefb7bf1da",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 56
+    },
+    {
+      "run_id": "a755989ed5c9437db58afdbda781a509",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 57
+    },
+    {
+      "run_id": "9ac22fbcd30b42a88303bea4ef0a0737",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 57
+    },
+    {
+      "run_id": "b4a4341839df4228a84f28863f99909d",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 57
+    },
+    {
+      "run_id": "c1347fa2d3414419b86a04642830d50c",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 57
+    },
+    {
+      "run_id": "ffa653f7eae84a3b95adfada7702bb37",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 57
+    },
+    {
+      "run_id": "493628c0374243c99738df12e7013f1b",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 58
+    },
+    {
+      "run_id": "b5a9189590914b5190e2117057f3f04f",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 58
+    },
+    {
+      "run_id": "54c41314a6904f20aa68b8815e89ea84",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 58
+    },
+    {
+      "run_id": "1c53e49ff39b4dcdbc499f66201ff06f",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 58
+    },
+    {
+      "run_id": "a292bd954b7a4ac5a275705b50e3d518",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 58
+    },
+    {
+      "run_id": "3a7bc52dafae43a5a4b7b41a99be0de1",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 59
+    },
+    {
+      "run_id": "7d6bc2df43734c4a9b597fd0a6e0c225",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 59
+    },
+    {
+      "run_id": "9dbb58200407423f901dafb4aed68f04",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 59
+    },
+    {
+      "run_id": "a6838bf01f544994ad7e79f02996dc00",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 59
+    },
+    {
+      "run_id": "8d42b38a320a4e2cb546214ccd8dac6b",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 59
+    },
+    {
+      "run_id": "9fc6abb294db47288ce54d5fe3cec7a0",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 60
+    },
+    {
+      "run_id": "85d8c93795de4f43a2f94d1ba5221187",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 60
+    },
+    {
+      "run_id": "2eeccff849c5498fa5b3074a2b0e8dfb",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 60
+    },
+    {
+      "run_id": "bb995feaf6ff42138a928ddd196a3dce",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 60
+    },
+    {
+      "run_id": "2e2b63fb21ad4017b88941058d817a3f",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 60
+    },
+    {
+      "run_id": "bbb0081446b94227b2d5aafc12642e61",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 61
+    },
+    {
+      "run_id": "7b03b14ecf4c48e1bb5d47feec83b701",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 61
+    },
+    {
+      "run_id": "bda46db18c0848d2ac84c7ca960dcf5b",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 61
+    },
+    {
+      "run_id": "8ce45d4b8ec545e082cde0c684878bfb",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 61
+    },
+    {
+      "run_id": "2cb725a0eb4249a3aa9c7427fd0abd05",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 61
+    },
+    {
+      "run_id": "7fdb2a21f5924a7f9e6fb533a7702f78",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 62
+    },
+    {
+      "run_id": "075303920e1a45229c9f0731399ba98c",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 62
+    },
+    {
+      "run_id": "cf1eb2d02dc648dabe797b5d84dc8b30",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 62
+    },
+    {
+      "run_id": "89f0cafb97d243ddbe5882740a48e99d",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 62
+    },
+    {
+      "run_id": "17aae50942174cfab9e2bc1a527aa4b5",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 62
+    },
+    {
+      "run_id": "c53a3aa422b64691ad0f1b188eb09a2b",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 63
+    },
+    {
+      "run_id": "87be64664bff4f8bb27d94beacf9abd8",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 63
+    },
+    {
+      "run_id": "c0744abac08d4282bb865b386f0013e3",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 63
+    },
+    {
+      "run_id": "3160d02cc2624470abc92803b4bbb350",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 63
+    },
+    {
+      "run_id": "d0dd35f91cd645899bef8b2dfba34867",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 63
+    },
+    {
+      "run_id": "ba24f3e50e0241f7b2eab654487ae6f2",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 64
+    },
+    {
+      "run_id": "ab5c92591629487faa2bba309b13d0c7",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 64
+    },
+    {
+      "run_id": "fa56c19f5b6c4fd08831340844d64382",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 64
+    },
+    {
+      "run_id": "bc92fb9cd4b24331ab74ec0941c54660",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 64
+    },
+    {
+      "run_id": "c61cb6ded3264db9af428487019179a9",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 64
+    },
+    {
+      "run_id": "5b445cc5bf64434fbd8b3f11033a3f2c",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 65
+    },
+    {
+      "run_id": "e949dda12bfd41ec84180048ef3d4335",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 65
+    },
+    {
+      "run_id": "f863bb6fa395442fba3f0c0880f6debc",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 65
+    },
+    {
+      "run_id": "c2665cf21aa242d3b308be1dc78a49f5",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 65
+    },
+    {
+      "run_id": "69fc9aba6cfe48edb2aca84e4888e7b8",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 65
+    },
+    {
+      "run_id": "2896bf4ecf9d4b0c9fd810404630d8d2",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 66
+    },
+    {
+      "run_id": "8600a5665c244825954ab96ad0ab7bfe",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 66
+    },
+    {
+      "run_id": "94c9763dc4ed469e930344e0e62f4649",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 66
+    },
+    {
+      "run_id": "8c7a3b13d40a4c6ab3efa73bb9109e80",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 66
+    },
+    {
+      "run_id": "bca21582a60642979052fabed1ba507a",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 66
+    },
+    {
+      "run_id": "f23afae515614c4dafd0658cf9b3a94a",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 67
+    },
+    {
+      "run_id": "44c5f755d0b84ce3908db0d830a05c6d",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 67
+    },
+    {
+      "run_id": "4cf96a7283b8445293b2240f4f988f67",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 67
+    },
+    {
+      "run_id": "81c85a3de4054cfc9a5b781f4653102c",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 67
+    },
+    {
+      "run_id": "b01476f8b47a45bc813b436d69c48c00",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 67
+    },
+    {
+      "run_id": "d3c7beaa699740bcbceea673458293d0",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 68
+    },
+    {
+      "run_id": "adcbbf29851c41e4b21d10720c1b7372",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 68
+    },
+    {
+      "run_id": "8aaa2c14a01c4266b40ecac1f6863b9f",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 68
+    },
+    {
+      "run_id": "baa69f2c05d347fc87a2cebb3b78bfc0",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 68
+    },
+    {
+      "run_id": "744fe5879b3d4463a856d18dc040af61",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 68
+    },
+    {
+      "run_id": "ab08bea341884be2b4ac9a75a6e5f498",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 69
+    },
+    {
+      "run_id": "75a918bd9d034a28bb35007e0c9e3316",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 69
+    },
+    {
+      "run_id": "c46e177bdea645e5b30a6848f6a2c385",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 69
+    },
+    {
+      "run_id": "aed55ef384824a9ca636f3ace8f6d781",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 69
+    },
+    {
+      "run_id": "69f379a6cccb4dd0ac0e7fa7391a251f",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 69
+    },
+    {
+      "run_id": "30ba517de02a43cabf71e52b44f9cdca",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 70
+    },
+    {
+      "run_id": "5ded4f9246094d84a506f5abe1406cde",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 70
+    },
+    {
+      "run_id": "6abf7498daba4786ad394e7878657566",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 70
+    },
+    {
+      "run_id": "09933b39180f46f4a5cdbcfbaa080eff",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 70
+    },
+    {
+      "run_id": "6f4113bf11164eaaa3ce92dce7ea3bcb",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 70
+    },
+    {
+      "run_id": "5e28ad0da0c347c0af74c3b50a3f41d7",
+      "scenario": "observed_mix",
+      "policy": "fixed",
+      "seed": 71
+    },
+    {
+      "run_id": "b00841debb2842199d67ad676e6f08dc",
+      "scenario": "observed_mix",
+      "policy": "segmented",
+      "seed": 71
+    },
+    {
+      "run_id": "f7f5c6c1e9f44798a65320a7d0ee914b",
+      "scenario": "observed_mix",
+      "policy": "oracle",
+      "seed": 71
+    },
+    {
+      "run_id": "06aab5527ba54fc8af4ff3663ec27c70",
+      "scenario": "observed_mix",
+      "policy": "thompson",
+      "seed": 71
+    },
+    {
+      "run_id": "79c3c01679f64f6daff3d6566065922a",
+      "scenario": "observed_mix",
+      "policy": "epsilon_greedy",
+      "seed": 71
+    }
+  ]
+}
